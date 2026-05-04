@@ -31,3 +31,14 @@ gem "wdm", "~> 0.2" if Gem.win_platform?
 
 gem "webrick", "~> 1.7"
 gem "kramdown-parser-gfm"
+
+# Ruby 4.0 compatibility — these used to be in the standard library
+gem "base64"
+gem "bigdecimal"
+gem "csv"
+gem "logger"
+gem "mutex_m"
+gem "ostruct"
+gem "drb"
+gem "fiddle"
+gem "rexml"
