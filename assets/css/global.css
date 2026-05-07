@@ -91,3 +91,69 @@ div.lazy {
 .email-text {
     font-family: Source Code Pro, monospace;
 }
+
+
+
+
+/* === Showcase: uniform card sizing === */
+
+/* Image: every showcase image renders at exactly the same dimensions */
+/* .showcase-card-img {
+    width: 100%;
+    aspect-ratio: 16/10;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+} */
+.showcase-card-img {
+    width: 100%;
+    aspect-ratio: 16/10;
+    object-fit: contain;
+    object-position: center;
+    display: block;
+    background-color: #f8f9fa;
+}
+
+/* Force every showcase grid item to the same fixed height */
+.grid-item {
+    margin-bottom: 1.5rem;
+}
+
+
+
+.grid-item > .card,
+.grid-item > div {
+    height: 560px !important;
+    display: flex !important;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: #fff;
+    border: 1.1px solid #000 !important;
+    border-radius: 0.8rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* Hover: subtle lift + stronger shadow */
+.grid-item > .card:hover,
+.grid-item > div:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.12);
+}
+
+/* Inner content area takes the remaining space below the image */
+.grid-item .card-body {
+    flex: 1;
+    overflow: hidden;
+    padding: 1rem 1.25rem;
+}
+
+/* Description text — clamp to 4 lines max */
+.grid-item .card-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 0.5rem;
+}
