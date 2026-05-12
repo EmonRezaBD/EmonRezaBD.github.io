@@ -13,6 +13,6 @@ date: 2025-01-15 00:01:00 +0000
     <p class="card-text small">
       <strong>Stack:</strong> NamedPipe · WPF C# · MFC C++ · Omron Controller · Win32
     </p>
-    <p class="card-text"><small><a href="https://github.com/EmonRezaBD" target="_blank">GitHub →</a></small></p>
+    <p class="card-text"><small><a href="https://github.com/EmonRezaBD" target="_blank"><i class="fab fa-github"> </i> GitHub</a></small></p>
   </div>
 </div>

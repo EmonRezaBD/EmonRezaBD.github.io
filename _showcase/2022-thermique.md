@@ -15,9 +15,9 @@ date: 2022-10-20 00:01:00 +0000
     </p>
     <p class="card-text">
       <small>
-        <a href="https://github.com/EmonRezaBD/Thermique" target="_blank">GitHub</a> ·
+        <a href="https://github.com/EmonRezaBD/Thermique" target="_blank"><i class="fab fa-github"> </i> GitHub</a> ·
         <a href="https://www.youtube.com/watch?v=SKbeOC3gMrs" target="_blank">Video</a> ·
-        <a href="https://dl.acm.org/doi/abs/10.1145/3542954.3542978" target="_blank">Paper</a>
+        <a href="https://dl.acm.org/doi/abs/10.1145/3542954.3542978" target="_blank">Paper</a> 
       </small>
     </p>
   </div>
