@@ -1,6 +1,6 @@
 ---
 show: true
-width: 6
+width: 4
 date: 2022-10-20 00:01:00 +0000
 ---
 <div>

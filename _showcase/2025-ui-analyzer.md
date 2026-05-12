@@ -1,6 +1,6 @@
 ---
 show: true
-width: 6
+width: 4 #for 3x3 grid
 date: 2025-12-01 00:01:00 +0000
 ---
 <div>
