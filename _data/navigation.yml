@@ -9,5 +9,9 @@ pages:
   url: /publications
 - name: Projects
   url: /showcase
+- name: Teaching
+  url: /teaching
 - name: Blog
   url: /blog
+- name: Gallery
+  url: /gallery
