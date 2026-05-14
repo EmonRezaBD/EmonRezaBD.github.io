@@ -11,13 +11,27 @@
                 {% for item in year.items %}
                 <div class="my-1 d-flex">
                     <div>
+                        {% if item.category %}
+                            {% if item.category == "Paper" %}{% assign tag_color = "#00897B" %}
+                            {% elsif item.category == "Grant" %}{% assign tag_color = "#FF8F00" %}
+                            {% elsif item.category == "Award" %}{% assign tag_color = "#E53935" %}
+                            {% elsif item.category == "Milestone" %}{% assign tag_color = "#5E35B1" %}
+                            {% elsif item.category == "Talk" %}{% assign tag_color = "#1E88E5" %}
+                            {% elsif item.category == "Service" %}{% assign tag_color = "#757575" %}
+                            {% elsif item.category == "Career" %}{% assign tag_color = "#2E7D32" %}
+                            {% elsif item.category == "Engineering" %}{% assign tag_color = "#6D4C41" %}
+                            {% elsif item.category == "Appointment" %}{% assign tag_color = "#00838F" %}
+                            {% else %}{% assign tag_color = "#607D8B" %}
+                            {% endif %}
+                            <span class="badge badge-pill mr-1" style="background-color:{{ tag_color }}; color:white; font-size:0.7rem;">{{ item.category }}</span>
+                        {% endif %}
                         {% if item.link %}
                             <a href="{{ item.link }}" target="_blank">{{ item.title }}</a>
                         {% else %}
                             {{ item.title }}
                         {% endif %}
                         {% if item.featured %}
-                            <span class="badge badge-pill ml-1" style="background-color: #20c997; color: white;">Featured</span>
+                            <span class="badge badge-pill ml-1" style="background-color:#20c997; color:white; font-size:0.7rem;">Featured</span>
                         {% endif %}
                     </div>
                     <div class="ml-auto mt-auto text-muted no-break"><i>{{ item.date | date: "%b %d" }}</i></div>

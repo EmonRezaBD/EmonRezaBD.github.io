@@ -4,6 +4,7 @@ date:           2023-12-01 00:01:00 +0000
 selected:       true
 pub:            "Springer DIGICOM 2023"
 pub_date:       "2023"
+pub_last:       ' <span class="badge badge-pill" style="background-color:#605B51; color:white; font-size:0.7rem;">DIGICOM Conference</span>'
 cover:          /assets/images/covers/intuitive-mobile-ui.png
 abstract: >-
   An empirical study of how older adults interact with mobile interfaces through tapping. Identifies patterns in tap accuracy, target size preferences, and gesture comfort, then derives design guidelines for elderly-friendly mobile UIs.

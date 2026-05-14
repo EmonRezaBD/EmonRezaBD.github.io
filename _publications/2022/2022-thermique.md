@@ -4,6 +4,7 @@ date:           2022-10-20 00:01:00 +0000
 selected:       true
 pub:            "ACM ICCA 2022"
 pub_date:       "2022"
+pub_last:       ' <span class="badge badge-pill" style="background-color:#605B51; color:white; font-size:0.7rem;">ICCA Conference</span>'
 cover:          /assets/images/covers/thermique.png
 abstract: >-
   A low-cost embedded system that combines real-time forehead detection from thermal video with body-temperature measurement to screen for elevated temperature in public spaces during COVID-19. Built on NVIDIA Jetson Nano with a YOLO-based detector.

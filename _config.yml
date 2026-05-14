@@ -15,10 +15,6 @@
 # in the templates via {{ site.myvariable }}.
 
 title: "Md Rokonuzzaman Reza"
-<link rel="apple-touch-icon" sizes="180x180" href="{{ '/apple-touch-icon.png' | relative_url }}">
-<link rel="icon" type="image/png" sizes="32x32" href="{{ '/favicon-32x32.png' | relative_url }}">
-<link rel="icon" type="image/png" sizes="16x16" href="{{ '/favicon-16x16.png' | relative_url }}">
-<link rel="shortcut icon" href="{{ '/favicon.ico' | relative_url }}">
 description: "CS PhD Student at Louisiana State University. Research interests: HCI, Human-AI Interaction, Privacy, LLMs."
 url: "https://emonrezabd.github.io"
 baseurl: ""
@@ -29,8 +25,6 @@ plugins:
   - jekyll-email-protect
 
 # Exclude from processing.
-# The following files will not be processed, by default. Create a custom list
-# to override the default setting.
 # exclude:
 #   - Gemfile
 #   - Gemfile.lock
