@@ -6,34 +6,41 @@ navbar_title: Home
 
 <div class="row">
     <div class="col-lg-3 col-md-4">
-        {% include widgets/profile_card_mini.html %}
+        <div data-aos="fade-right" data-aos-duration="700">
+            {% include widgets/profile_card_mini.html %}
+        </div>
     </div>
     <div class="col-lg-9 col-md-8">
 
-        {% include widgets/profile_card_bio_only.html %}
-
-        <!-- Debugging widgets -->
-        {% include widgets/debug_repo_name.html %}
-        {% include widgets/debug_url.html %}
+        <div data-aos="fade-up" data-aos-duration="600">
+            {% include widgets/profile_card_bio_only.html %}
+        </div>
 
         {% if site.data.display.homepage.show_experience %}
+        <div data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
             {% include widgets/experience_card.html %}
+        </div>
         {% endif %}
 
         {% if site.data.display.homepage.show_news %}
         {% assign count_news = site.news | size %}
         {% if count_news > 0 %}
-        {% include widgets/news_card.html limit=site.data.display.homepage.num_news %}
+        <div data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
+            {% include widgets/news_card.html limit=site.data.display.homepage.num_news %}
+        </div>
         {% endif %}
         {% endif %}
 
         {% if site.data.display.homepage.show_selected_publications %}
         {% assign pubs = site.publications | sort: "date" | reverse | where: "selected", true %}
-        {%
-        include widgets/publication_card.html
-        publications=pubs
-        title='<i class="fas fa-star"></i> Selected Publications'
-        %}
+        <div data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">
+            {%
+            include widgets/publication_card.html
+            publications=pubs
+            title='<i class="fas fa-star"></i> Selected Publications'
+            %}
+        </div>
         {% endif %}
+
     </div>
 </div>
