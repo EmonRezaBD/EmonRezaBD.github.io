@@ -1,6 +1,5 @@
 primary_name: "Md Rokonuzzaman Reza"
 secondary_name: ""
-# navbar_name: "Md R. Reza"
 navbar_name: "Rokon"
 
 positions:
@@ -8,7 +7,7 @@ positions:
 - name: Louisiana State University
 
 email: "mreza3@lsu.edu"
-# cv_link: /assets/files/Reza_CV.pdf  # Uncomment after you add your CV PDF
+# cv_link: /assets/files/Reza_CV.pdf
 
 gscholar: 9Tcxq-0AAAAJ
 github: EmonRezaBD
@@ -43,23 +42,31 @@ portrait_caption: >-
 education:
 - name: Louisiana State University
   logo: /assets/images/badges/LSU.png
+  url: https://www.lsu.edu/eng/cse/index.php
   position: >-
     Department of Computer Science <br/>
     PhD Student
+  location: Baton Rouge, LA
   date: Aug 2025 - present
 - name: Military Institute of Science and Technology (MIST)
   logo: /assets/images/badges/MIST.png
+  url: https://mist.ac.bd/
   position: B.Sc. in Computer Science and Engineering
+  location: Dhaka, Bangladesh
   date: Jan 2018 - May 2022
 
 experience:
 - name: Frontier Semiconductor
   logo: /assets/images/badges/FSM.png
+  url: https://frontiersemi.com/
   position: Software Engineer, R&D
+  location: Milpitas, CA
   date: Jun 2023 - Jul 2025
 - name: University of Scholars
   logo: /assets/images/badges/scholars.png
+  url: https://ius.edu.bd/
   position: Lecturer, CSE
+  location: Dhaka, Bangladesh
   date: May 2022 - Aug 2023
 
 awards:

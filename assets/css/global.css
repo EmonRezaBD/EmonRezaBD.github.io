@@ -163,3 +163,11 @@ body .container-lg,
 body .container-xl {
     max-width: 50% !important; /*Make full website wider, just change the percentage*/
 /* } */
+
+/* On mobile, let cards be their natural height */
+@media (max-width: 768px) {
+    .grid-item > .card,
+    .grid-item > div {
+        height: auto !important;
+    }
+}

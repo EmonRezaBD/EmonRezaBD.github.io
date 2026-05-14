@@ -9,12 +9,12 @@ cover:          /assets/images/covers/iot-system.png
 abstract: >-
   An IoT-based monitoring system for fish-farming environments that tracks water quality parameters in real time and surfaces alerts to farmers via a mobile interface. Co-supervised undergraduate research.
 authors:
-  - Md. Ahsan Arif
+  - Md Ahsan Arif
   - Md Rokonuzzaman Reza
-  - Avijit Bose Mandal
-  - Md. Asif Mahmud Akib
-  - Fahmid Mahmud Shuma
-  - Sadek Sazzad Mahmud Fehir
+  - Angshu Bikash Mandal
+  - Md Appel Mahmud Akib
+  - Farhana Mimi Shuma
+  - Shah Syed Md Fehir
 links:
   Paper: https://ieeexplore.ieee.org/document/10303402
 ---

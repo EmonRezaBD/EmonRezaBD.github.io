@@ -11,8 +11,10 @@ abstract: >-
 authors:
   - Md Rokonuzzaman Reza
   - Muhammad Nazrul Islam
-  - Mumu Islam
+  - Mohian Islam
+  - Afnan Alauddin Mumu
   - Faiz Al Faisal
+  
 links:
   Paper: https://ieeexplore.ieee.org/abstract/document/10212757
   Code: https://github.com/EmonRezaBD/study-on-mental-health

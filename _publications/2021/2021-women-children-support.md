@@ -10,11 +10,11 @@ abstract: >-
   A machine-learning–based support system for early identification of suppression and abuse cases against women and children. Combines text classification with risk scoring to triage cases for human follow-up.
 authors:
   - Md Rokonuzzaman Reza
-  - F. M. Bashar Mannan
-  - Diptha Barua
-  - Sumaiya Islam
-  - Naznin Sultana Khan
-  - Sheikh Rabiul Mahmud
+  - Fabiha Mukarrama Binte Mannan
+  - Dhrubo Barua
+  - Shafayetul Islam
+  - Nafiz Imtiaz Khan
+  - Sharifa Rania Mahmud
 links:
   Paper: https://ieeexplore.ieee.org/abstract/document/9667924
   Code: https://github.com/EmonRezaBD/support-system-for-women-and-children
